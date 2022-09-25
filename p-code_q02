@@ -1,0 +1,8 @@
+    code[ 0].f = INT; code[ 0].l = 0; code[ 0].a = 3;
+    code[ 1].f = CAL; code[ 1].l = 0; code[ 1].a = 3;
+    code[ 2].f = OPR; code[ 2].l = 0; code[ 2].a = 0; // RETURN
+    code[ 3].f = INT; code[ 3].l = 0; code[ 3].a = 5;
+    code[ 4].f = LIT; code[ 4].l = 0; code[ 4].a = 4; // PUSH (4)
+    code[ 5].f = LIT; code[ 5].l = 0; code[ 5].a = 5; // PUSH (5)
+    code[ 6].f = OPR; code[ 6].l = 0; code[ 6].a = 2; // POP; POP; PUSH (4+5)
+    code[ 7].f = OPR; code[ 7].l = 0; code[ 7].a = 0; // RETURN
